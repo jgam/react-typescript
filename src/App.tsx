@@ -2,6 +2,8 @@ import React, { Component, useState } from "react";
 import { createGlobalStyle } from "styled-components";
 
 const App: React.FC = () => {
+  //originally
+  //const App: React.FC<{number: number}> = ({number}) => {return <div>{number}</div>}
   interface IState{
     counter:number;
   }
